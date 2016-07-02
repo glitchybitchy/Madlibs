@@ -6,3 +6,7 @@ var somePeople = ['Mabel', 'Charlie', 'Gruncle Stan', 'Frodo', 'Princess Bubbleg
 var somePlaces = ['Candy Kingdom', 'Gravity Falls', 'Philadelphia', 'Mordor', 'Rivendell', 'Essex' ];
 var someVerbs = ['eat', 'run', 'bounce', 'laugh', 'sing', 'sleep'];
 var someVehicle = ['car', 'buffalo', 'unicycle', 'train', 'boat', 'manbearpig'];
+
+var randomIndex = Math.floor((Math.random() * 6) + 1);
+
+console.log(myStory.replace('[adjective]','cool'));
