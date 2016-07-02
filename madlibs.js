@@ -4,4 +4,5 @@ var someAdjectives = ['beautiful', 'nasty', 'eloquent', 'purple', 'rumbunctious'
 var someNouns = ['goat', 'lamp', 'candy', 'shovel', 'monster truck', 'computer'];
 var somePeople = ['Mabel', 'Charlie', 'Gruncle Stan', 'Frodo', 'Princess Bubblegum', 'Bill Cypher' ];
 var somePlaces = ['Candy Kingdom', 'Gravity Falls', 'Philadelphia', 'Mordor', 'Rivendell', 'Essex' ];
-var someVerbs = ['ate', 'ran', 'bounced', 'laughed', 'slapped', 'broke'];
+var someVerbs = ['eat', 'run', 'bounce', 'laugh', 'sing', 'sleep'];
+var someVehicle = ['car', 'buffalo', 'unicycle', 'train', 'boat', 'manbearpig'];
