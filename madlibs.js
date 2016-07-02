@@ -7,6 +7,28 @@ var somePlaces = ['Candy Kingdom', 'Gravity Falls', 'Philadelphia', 'Mordor', 'R
 var someVerbs = ['eat', 'run', 'bounce', 'laugh', 'sing', 'sleep'];
 var someVehicle = ['car', 'buffalo', 'unicycle', 'train', 'boat', 'manbearpig'];
 
-var randomIndex = Math.floor((Math.random() * 6) + 1);
+// var myArrays = [ '[adjective]', '[noun]', '[place]', '[person]', '[vehicle]', '[verb]' ];
 
-console.log(myStory.replace('[adjective]','cool'));
+//Since all arrays have the same length I made a random index variable
+var randomIndex = Math.floor((Math.random() * 6));
+
+var randomAdjective = someAdjectives[randomIndex];
+var randomNoun = someNouns[randomIndex];
+var randomPeople = somePeople[randomIndex];
+var randomPlace = somePlaces[randomIndex];
+var randomVerb = someVerbs[randomIndex];
+var randomVehicle = someVehicle[randomIndex];
+
+
+// for(var i = 0; i<6; i++){
+
+// 	myStory.replace(myArrays[i],'REPLACED');
+// }
+// Tried a for loop but it didn't work
+
+
+//  console.log(myStory);
+
+//I was trying to replace to come up with a way to swap the words with a random word that corresponded to it but this is far as I got...
+
+ console.log(myStory.replace(/adjective|noun|person|place|verb|vehicle/g, 'REPLACED'));
