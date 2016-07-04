@@ -7,7 +7,6 @@ var somePlaces = ['Candy Kingdom', 'Gravity Falls', 'Philadelphia', 'Mordor', 'R
 var someVerbs = ['eat', 'run', 'bounce', 'laugh', 'sing', 'sleep'];
 var someVehicle = ['car', 'buffalo', 'unicycle', 'train', 'boat', 'manbearpig'];
 
-// var myArrays = [ '[adjective]', '[noun]', '[place]', '[person]', '[vehicle]', '[verb]' ];
 
 //Since all arrays have the same length I made a random index variable
 var randomIndex = Math.floor((Math.random() * 6));
@@ -31,4 +30,13 @@ var randomVehicle = someVehicle[randomIndex];
 
 //I was trying to replace to come up with a way to swap the words with a random word that corresponded to it but this is far as I got...
 
- console.log(myStory.replace(/adjective|noun|person|place|verb|vehicle/g, 'REPLACED'));
+// console.log(myStory.replace(/adjective|noun|person|place|verb|vehicle/g, 'REPLACED'));
+
+// nevermind this... turns out it was a lot simpler than I thought...
+
+var myStory = 'Once upon a time there was a ' + randomAdjective + ' ' + randomNoun + '. It was really ' + randomAdjective + '. It liked to ' + randomVerb + ' all day. One day, it went to ' + randomPlace + ' to meet ' + randomPeople + '. To get there, it rode in a ' + randomVehicle + ', but on the way there, the ' + randomVehicle + ' crashed.  It had to walk the rest of the way.'
+
+console.log(myStory);
+
+//THERE...
+
